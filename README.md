@@ -18,7 +18,7 @@ Clone the flutter module from here: https://github.com/ashish-bb-16/FlutterTest/
 1) Navigate to the flutter module(bb_flutter) from terminal and run the below command:
    `flutter pub get`
    
-2) Open this project in Xcode. Open the Podfile and change the flutter path from: 
+2) Open .xcworkspace(Because we would be using cocoapods) project in Xcode. Open the Podfile and change the flutter path from: 
    ```
    flutter_application_path = '../../Flutter/FlutterTest/bb_flutter'
    ```
