@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func navigateToListPage(_ sender: Any) {
+        let listVC = (storyboard?.instantiateViewController(identifier: "ListViewController"))!
+        self.navigationController?.pushViewController(listVC, animated: true)
+    }
 }
 

@@ -13,9 +13,18 @@
 		50C4F7DB2850D831005BB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C4F7D92850D831005BB05C /* Main.storyboard */; };
 		50C4F7DD2850D833005BB05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C4F7DC2850D833005BB05C /* Assets.xcassets */; };
 		50C4F7E02850D833005BB05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C4F7DE2850D833005BB05C /* LaunchScreen.storyboard */; };
+		50C4F7E82850D8B0005BB05C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4F7E72850D8B0005BB05C /* ListViewController.swift */; };
+		50C4F7EC28511418005BB05C /* NativeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4F7EB28511418005BB05C /* NativeCell.swift */; };
+		50C4F7EF2851CD7F005BB05C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4F7EE2851CD7F005BB05C /* Cell.swift */; };
+		50F29EE028522F190030097E /* FlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F29EDF28522F190030097E /* FlutterVC.swift */; };
+		50F29EE2285234480030097E /* FlutterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F29EE1285234480030097E /* FlutterCell.swift */; };
+		50F29EE4285236BF0030097E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F29EE3285236BF0030097E /* Queue.swift */; };
+		F27B81D727216F0AF3714A52 /* Pods_FlutterSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37580D564FBC5DEEE917DCB5 /* Pods_FlutterSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0184CEBD4C2A44E0F03C5067 /* Pods-FlutterSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterSample.release.xcconfig"; path = "Target Support Files/Pods-FlutterSample/Pods-FlutterSample.release.xcconfig"; sourceTree = "<group>"; };
+		37580D564FBC5DEEE917DCB5 /* Pods_FlutterSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlutterSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C4F7D02850D831005BB05C /* FlutterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C4F7D32850D831005BB05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C4F7D52850D831005BB05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		50C4F7DC2850D833005BB05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C4F7DF2850D833005BB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C4F7E12850D833005BB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C4F7E72850D8B0005BB05C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		50C4F7EB28511418005BB05C /* NativeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCell.swift; sourceTree = "<group>"; };
+		50C4F7EE2851CD7F005BB05C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		50F29EDF28522F190030097E /* FlutterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterVC.swift; sourceTree = "<group>"; };
+		50F29EE1285234480030097E /* FlutterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterCell.swift; sourceTree = "<group>"; };
+		50F29EE3285236BF0030097E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DB9D5738FCD8CAAE95582E50 /* Pods-FlutterSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterSample.debug.xcconfig"; path = "Target Support Files/Pods-FlutterSample/Pods-FlutterSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27B81D727216F0AF3714A52 /* Pods_FlutterSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				50C4F7D22850D831005BB05C /* FlutterSample */,
 				50C4F7D12850D831005BB05C /* Products */,
+				B163F891FDE543327AFBFB1B /* Pods */,
+				8B3273B0CE3DBDC7CFE082AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,31 @@
 				50C4F7DC2850D833005BB05C /* Assets.xcassets */,
 				50C4F7DE2850D833005BB05C /* LaunchScreen.storyboard */,
 				50C4F7E12850D833005BB05C /* Info.plist */,
+				50C4F7E72850D8B0005BB05C /* ListViewController.swift */,
+				50C4F7EB28511418005BB05C /* NativeCell.swift */,
+				50C4F7EE2851CD7F005BB05C /* Cell.swift */,
+				50F29EDF28522F190030097E /* FlutterVC.swift */,
+				50F29EE1285234480030097E /* FlutterCell.swift */,
+				50F29EE3285236BF0030097E /* Queue.swift */,
 			);
 			path = FlutterSample;
+			sourceTree = "<group>";
+		};
+		8B3273B0CE3DBDC7CFE082AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37580D564FBC5DEEE917DCB5 /* Pods_FlutterSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B163F891FDE543327AFBFB1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D5738FCD8CAAE95582E50 /* Pods-FlutterSample.debug.xcconfig */,
+				0184CEBD4C2A44E0F03C5067 /* Pods-FlutterSample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50C4F7E42850D833005BB05C /* Build configuration list for PBXNativeTarget "FlutterSample" */;
 			buildPhases = (
+				895DCC5EB0AEABE10734A85E /* [CP] Check Pods Manifest.lock */,
+				D1266A65A31866085C53514A /* [CP-User] Run Flutter Build bb_flutter Script */,
 				50C4F7CC2850D831005BB05C /* Sources */,
 				50C4F7CD2850D831005BB05C /* Frameworks */,
 				50C4F7CE2850D831005BB05C /* Resources */,
+				8AE0997B36C16CC2024117BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +178,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		895DCC5EB0AEABE10734A85E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlutterSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE0997B36C16CC2024117BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterSample/Pods-FlutterSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterSample/Pods-FlutterSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlutterSample/Pods-FlutterSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1266A65A31866085C53514A /* [CP-User] Run Flutter Build bb_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build bb_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter/FlutterTest/bb_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50C4F7CC2850D831005BB05C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F29EE028522F190030097E /* FlutterVC.swift in Sources */,
 				50C4F7D82850D831005BB05C /* ViewController.swift in Sources */,
+				50F29EE2285234480030097E /* FlutterCell.swift in Sources */,
 				50C4F7D42850D831005BB05C /* AppDelegate.swift in Sources */,
+				50C4F7EC28511418005BB05C /* NativeCell.swift in Sources */,
+				50C4F7E82850D8B0005BB05C /* ListViewController.swift in Sources */,
 				50C4F7D62850D831005BB05C /* SceneDelegate.swift in Sources */,
+				50F29EE4285236BF0030097E /* Queue.swift in Sources */,
+				50C4F7EF2851CD7F005BB05C /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +387,7 @@
 		};
 		50C4F7E52850D833005BB05C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9D5738FCD8CAAE95582E50 /* Pods-FlutterSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +398,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +416,7 @@
 		};
 		50C4F7E62850D833005BB05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0184CEBD4C2A44E0F03C5067 /* Pods-FlutterSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +427,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

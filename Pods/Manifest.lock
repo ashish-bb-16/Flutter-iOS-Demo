@@ -1,0 +1,28 @@
+PODS:
+  - bb_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - bb_flutter (from `../../Flutter/FlutterTest/bb_flutter/.ios/Flutter`)
+  - Flutter (from `../../Flutter/FlutterTest/bb_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../../Flutter/FlutterTest/bb_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  bb_flutter:
+    :path: "../../Flutter/FlutterTest/bb_flutter/.ios/Flutter"
+  Flutter:
+    :path: "../../Flutter/FlutterTest/bb_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../../Flutter/FlutterTest/bb_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  bb_flutter: 6aefa8cbfa59e12f8b2c1ff0377b943aab90cf32
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: d3a0fbc12bc47787a12fcc919193f3959aa7d5ad
+
+PODFILE CHECKSUM: 60c1c466ec0ae387807149e31c9b13cc42e5038c
+
+COCOAPODS: 1.11.3
