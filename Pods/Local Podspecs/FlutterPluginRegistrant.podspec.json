@@ -11,7 +11,7 @@
     "Flutter Dev Team": "flutter-dev@googlegroups.com"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "source_files": [
     "Classes",
@@ -27,6 +27,15 @@
   },
   "dependencies": {
     "Flutter": [
+
+    ],
+    "path_provider_ios": [
+
+    ],
+    "sqflite": [
+
+    ],
+    "video_player_avfoundation": [
 
     ]
   }

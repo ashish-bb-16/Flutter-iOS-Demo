@@ -8,4 +8,9 @@ end
 
 post_install do |installer|
   flutter_post_install(installer) if defined?(flutter_post_install)
+  #target.build_configurations.each do |config|
+   # config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    #config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'i386 arm64'
+  #end
 end
+  
